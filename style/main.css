@@ -1,0 +1,52 @@
+/**************************************************************
+GENERAL
+**************************************************************/
+
+html, body, #wrapper, #map-canvas {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	position: relative;
+}
+
+#collapsible_menu_container {
+	position: absolute; 
+	top: 10px;
+	left: 10px;
+	z-index: 99;
+	min-width: 320px;
+/**	border-radius: 15px;**/
+	border-style: solid;
+	border-width: 3px;
+}
+
+#collapsible_menu_container ul {
+	list-style-type: none;
+}
+
+#collapsible_border {
+	border-bottom: solid 1px #EDB24C;
+	border-width: 1px;
+	margin: 0px;
+	padding: 0px 10px 0px;
+}
+
+#collapsible_menu_container.collapsible {
+	padding: 15px;
+}
+
+
+/**************************************************************
+COLOR
+**************************************************************/
+#collapsible_menu_container {
+	background: #E3DD8D;
+	border-color: #EDB24C;
+}
+
+.restaurant {
+	color: #ED5C4C;
+}
